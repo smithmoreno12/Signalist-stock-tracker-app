@@ -17,6 +17,7 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "inngest": "^3.54.2",
+    "lucide": "^1.30.0",
     "lucide-react": "^1.28.0",
     "mongodb": "^7.5.0",
     "mongoose": "^9.9.1",

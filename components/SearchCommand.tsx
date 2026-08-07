@@ -12,6 +12,7 @@ import { Loader2, TrendingUp } from "lucide-react";
 import Link from "next/link";
 import { searchStocks } from "@/lib/actions/finnhub.actions";
 import { useDebounce } from "../hooks/useDebounce";
+import { Star } from "lucide-react";
 
 export default function SearchCommand({
   renderAs = "button",
@@ -121,7 +122,7 @@ export default function SearchCommand({
                         {stock.symbol} | {stock.exchange} | {stock.type}
                       </div>
                     </div>
-                    {/*<Star />*/}
+                    <Star />
                   </Link>
                 </li>
               ))}
